@@ -1,0 +1,13 @@
+{
+    "type": "module",
+    "scripts": {
+        "start": "nodemon src/app.js",
+        "check-loop": "nodemon src/check-event-loop.js"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.14"
+    },
+    "dependencies": {
+        "dotenv": "^17.3.1"
+    }
+}
